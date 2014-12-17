@@ -1,14 +1,16 @@
 3ware_tool
 ==========
 
-A simple tool to save keystrokes when dealing with 3ware raid controllers. Tested on 9650SE might not have full functionality on other models.
+A simple tool to save keystrokes when dealing with 3ware raid controllers. Tested on only a 9650SE and might not have full functionality on other models.
 
-Sadly at the time of testing I was in JBOD mode for software raid tests so the examples are pretty boring. 
+Sadly at the time of testing I was in JBOD mode for software raid tests so the examples below are pretty boring. 
+
+NOTE : I have only tested this in a system with a single controller. Its not really setup to handle multiple controllers. You could change the CONTROLLER variable to match the one you want to use. I understand what needs to be done but till I can test it I am going to leave it like it is. Now if you have a card(s) you care to donate/loan I am glad to update the script. 
 
 
 General
 ==========
-I wrote this script to mainly check and turn on the writecache on my 3ware controller. I expanded it recently to save cycles typing commands and for easy intergration into other scripts.
+I wrote this script to mainly check and turn on the writecache on my 3ware controller. Over time I expanded it to save cycles typing commands and for easy intergration into other scripts.
 
 USE AT YOUR OWN RISK! 
 YOU HAVE BEEN WARNED !
