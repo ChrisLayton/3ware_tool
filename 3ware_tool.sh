@@ -3,9 +3,9 @@
 # Author : Chris Layton <linux@misterx.org> 
 # Purpose : To make interaction with 3ware raid cards easier and to also allow easy scripting of write cache functions. 
 # Usage : See USAGE Below
-# Requires :  tw_cli (Make sure to get the right one for your card and card's code base!)
+# Requires :  tw_cli (Make sure to get the right one for your card and card's code base! THIS IS IMPORTANT..SERIOUSLY, IT REALLY IS! )
 # Disclaimer : This is a armed and dangerous program...use at your own risk!
-# License : GPL V3
+# License : GPL V2
 
 # Exit Codes 
 # 0 - All is well..in theory 
